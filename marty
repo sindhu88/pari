@@ -9,9 +9,9 @@ pipeline {
             }
         }
         stage('Test') {
-            steps {
+            steps 
                 echo 'Testing..'
-                mvn build echo
+                
             }
         }
         stage('Deploy') {
